@@ -16,7 +16,7 @@ class Sources extends Component {
 
     handleAdd = () => {
         const {num1, num2} = this.state;
-        this.setState({result: num1 + num2})
+        this.setState({result: +num1 + +num2})
     }
 
     render(){
